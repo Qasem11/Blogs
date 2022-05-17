@@ -1,0 +1,108 @@
+body{
+    height:720px;
+    width:100%;
+    margin:0;
+}
+#root{
+    height: 100%;
+}
+.homeContainer{
+    height: 100%;
+    background-image: url("img\Modern Blog Stretch Background The Cutest Blog On The Block.jpg") ;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.FormContainer{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 697px;
+   
+    background-image: url("img\trent-erwin-UgA3Xvi3SkA-unsplash.jpg") ;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FormC{
+    display: grid;
+    place-items: center;
+    width: 500px;
+    height: 400px;
+    background-color:rgb(208, 219, 232);
+    border-radius: 10px;
+}
+.Form{
+   width: 450px;
+}
+.blogs{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.BlogCard{
+    flex:content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.header {
+    margin-top: 60px;
+  }
+  
+  .headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lora", serif;
+    color: #444;
+  }
+  
+  .headerTitleSm {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+  }
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+  }
+  
+  .headerImg{
+      width: 100%;
+      height: 450px;
+      margin-top: 80px;
+      object-fit: cover;
+  }
+  .centerContainer{
+      display: grid;
+      margin-top:20px;
+      justify-content: center;
+  }
+  .col{
+      margin: 5px;
+  }
+  #errormsg{
+      color: red;
+  }
+  .writeContainer{
+      margin-left: 30px;
+      width: 500px
+  }
+  .WriteFormC{
+    display: grid;
+    place-items: center;
+    width: 700px;
+    height: 320px;
+    background-color:rgb(208, 219, 232);
+    border-radius: 10px;
+}
+.WriteForm{
+    width: 650px;
+}
